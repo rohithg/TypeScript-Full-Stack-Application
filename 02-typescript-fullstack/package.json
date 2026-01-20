@@ -1,0 +1,31 @@
+{
+  "name": "typescript-fullstack-app",
+  "version": "1.0.0",
+  "description": "Full-stack TypeScript application with Next.js, Prisma, and tRPC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@prisma/client": "^5.0.0",
+    "@trpc/server": "^10.0.0",
+    "@trpc/client": "^10.0.0",
+    "@trpc/react-query": "^10.0.0",
+    "@tanstack/react-query": "^4.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "prisma": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
